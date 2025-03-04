@@ -1,0 +1,108 @@
+﻿@model IEnumerable<PharmaManagementApp.Models.UserViewModel>
+
+@{
+    ViewData["Title"] = "Users";
+    var successMessage = TempData["SuccessMessage"];
+    var errorMessage = TempData["ErrorMessage"];
+}
+<main>
+    <div class="m-2 p-2 mt-4">
+        <p>
+            <a asp-action="Create" class="btn btn-outline-success">Create New</a>
+        </p>
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered" id="UserList">
+                <thead class="table-primary text-center">
+                    <tr>
+                        <th class="text-center">
+                            @Html.DisplayNameFor(model => model.UserId)
+                        </th>
+                        <th class="text-center">
+                            @Html.DisplayNameFor(model => model.UserName)
+                        </th>
+                        <th  class="text-center">
+                            @Html.DisplayNameFor(model => model.Email)
+                        </th>
+                        <th  class="text-center">
+                            @Html.DisplayNameFor(model => model.MobileNo)
+                        </th>
+                        <th  class="text-center">
+                            @Html.DisplayNameFor(model => model.Address)
+                        </th>
+                        <th  class="text-center">
+                            @Html.DisplayNameFor(model => model.IsActive)
+                        </th>
+                        <th  class="text-center">
+                            @Html.DisplayNameFor(model => model.CreatedAt)
+                        </th>
+                        <th  class="text-center">
+                            @Html.DisplayNameFor(model => model.UpdatedAt)
+                        </th>
+                        <th  class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr class="text-center">
+                            <td>
+                                @item.UserId
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UserName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Email)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MobileNo)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Address)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.IsActive)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CreatedAt)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UpdatedAt)
+                            </td>
+                            <td>
+                                <div class="btn-action">
+                                    <a href="@Url.Action("Details", "Pharmacy", new { id = item.UserId })" data-toggle="tooltip" data-placement="bottom" title="Details"><i class="fa-solid fa-eye text-success"></i></a>
+                                    <a href="@Url.Action("Edit", "Pharmacy", new { id = item.UserId })" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa-regular fa-pen-to-square"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>
+
+@*sweet aleart*@
+@if (errorMessage != null)
+{
+    <script>
+        Swal.fire({
+            icon: "error",
+            title: '<span class="text-danger">Error</span>',
+            text: '@errorMessage'
+        });
+    </script>
+}
+@if (successMessage != null)
+{
+    <script>
+        Swal.fire({
+            icon: "success",
+            title: '<span class="text-success">Success</span>',
+            text: '@successMessage'
+        });
+    </script>
+}
+

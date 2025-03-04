@@ -1,0 +1,67 @@
+﻿@model PharmaManagementApp.Models.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+	var successMessage = TempData["SuccessMessage"];
+	var errorMessage = TempData["ErrorMessage"];
+}
+
+<!-- Main Content -->
+<div class="container-fluid">
+	<div class="row main-content bg-success text-center">
+		<div class="col-md-4 text-center company__info">
+			<span class="company__logo">
+				<span class="fa-solid fa-suitcase-medical""></span>
+			</span>
+			<h4 class="company_title">Pharmacy Stores</h4>
+		</div>
+		<div class="col-md-8 col-xs-12 col-sm-12 login_form ">
+			<div class="container-fluid">
+				<div class="row">
+					<h2 class="pt-4">Log In</h2>
+				</div>
+				<div class="row">
+					@using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+						<div class="form-group">
+							@Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form__input", placeholder = "Email", required = "required" } })
+							<div id="email-feedback" class="text-start"></div>
+							<span asp-validation-for="Email" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							@Html.PasswordFor(model => model.PasswordHash, new { @class = "form__input", required = "required", placeholder = "Password" })
+							<span asp-validation-for="PasswordHash" class="text-danger"></span>
+						</div>
+						<div class="row">
+							<input type="submit" value="Submit" class="btn-l w-100">
+						</div>
+					}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+@*sweet aleart*@
+@if (errorMessage != null)
+{
+	<script>
+		Swal.fire({
+			icon: "error",
+			title: '<span class="text-danger">Error</span>',
+			text: '@errorMessage'
+		});
+	</script>
+}
+@if (successMessage != null)
+{
+	<script>
+		Swal.fire({
+			icon: "success",
+			title: '<span class="text-success">Success</span>',
+			text: '@successMessage'
+		});
+	</script>
+}

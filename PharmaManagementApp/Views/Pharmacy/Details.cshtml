@@ -1,0 +1,103 @@
+﻿@model PharmaManagementApp.Models.UserViewModel
+
+@{
+    ViewData["Title"] = "Details";
+    var successMessage = TempData["SuccessMessage"];
+    var errorMessage = TempData["ErrorMessage"];
+}
+
+<main>
+    <div class="m-2 p-2 mt-4">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="mb-0">User Details</h3>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-12 col-sm-4 col-md-3 col-lg-2">
+                        @Html.DisplayNameFor(model => model.UserId)
+                    </dt>
+                    <dd class="col-12 col-sm-8 col-md-9 col-lg-10">
+                        @Html.DisplayFor(model => model.UserId)
+                    </dd>
+
+                    <dt class="col-12 col-sm-4 col-md-3 col-lg-2">
+                        @Html.DisplayNameFor(model => model.UserName)
+                    </dt>
+                    <dd class="col-12 col-sm-8 col-md-9 col-lg-10">
+                        @Html.DisplayFor(model => model.UserName)
+                    </dd>
+
+                    <dt class="col-12 col-sm-4 col-md-3 col-lg-2">
+                        @Html.DisplayNameFor(model => model.Email)
+                    </dt>
+                    <dd class="col-12 col-sm-8 col-md-9 col-lg-10">
+                        @Html.DisplayFor(model => model.Email)
+                    </dd>
+
+                    <dt class="col-12 col-sm-4 col-md-3 col-lg-2">
+                        @Html.DisplayNameFor(model => model.MobileNo)
+                    </dt>
+                    <dd class="col-12 col-sm-8 col-md-9 col-lg-10">
+                        @Html.DisplayFor(model => model.MobileNo)
+                    </dd>
+
+                    <dt class="col-12 col-sm-4 col-md-3 col-lg-2">
+                        @Html.DisplayNameFor(model => model.Address)
+                    </dt>
+                    <dd class="col-12 col-sm-8 col-md-9 col-lg-10">
+                        @Html.DisplayFor(model => model.Address)
+                    </dd>
+
+                    <dt class="col-12 col-sm-4 col-md-3 col-lg-2">
+                        @Html.DisplayNameFor(model => model.IsActive)
+                    </dt>
+                    <dd class="col-12 col-sm-8 col-md-9 col-lg-10">
+                        @Html.DisplayFor(model => model.IsActive)
+                    </dd>
+
+                    <dt class="col-12 col-sm-4 col-md-3 col-lg-2">
+                        @Html.DisplayNameFor(model => model.CreatedAt)
+                    </dt>
+                    <dd class="col-12 col-sm-8 col-md-9 col-lg-10">
+                        @Html.DisplayFor(model => model.CreatedAt)
+                    </dd>
+
+                    <dt class="col-12 col-sm-4 col-md-3 col-lg-2">
+                        @Html.DisplayNameFor(model => model.UpdatedAt)
+                    </dt>
+                    <dd class="col-12 col-sm-8 col-md-9 col-lg-10">
+                        @Html.DisplayFor(model => model.UpdatedAt)
+                    </dd>
+                </dl>
+
+                <div class="mt-3">
+                    @Html.ActionLink("Edit", "Edit", new { id = Model.UserId }, new { @class = "btn btn-outline-primary me-2 mb-2" })
+                    <a asp-action="Index" class="btn btn-outline-dark mb-2">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+@*sweet aleart*@
+@if (errorMessage != null)
+{
+    <script>
+        Swal.fire({
+            icon: "error",
+            title: '<span class="text-danger">Error</span>',
+            text: '@errorMessage'
+        });
+    </script>
+}
+@if (successMessage != null)
+{
+    <script>
+        Swal.fire({
+            icon: "success",
+            title: '<span class="text-success">Success</span>',
+            text: '@successMessage'
+        });
+    </script>
+}

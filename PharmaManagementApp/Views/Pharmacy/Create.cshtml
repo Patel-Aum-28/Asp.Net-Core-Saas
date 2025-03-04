@@ -1,0 +1,89 @@
+﻿@model PharmaManagementApp.Models.UserTable
+
+@{
+    ViewData["Title"] = "Create";
+    var successMessage = TempData["SuccessMessage"];
+    var errorMessage = TempData["ErrorMessage"];
+}
+
+<h1 class="text-center">Create User</h1>
+
+<hr />
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10 col-sm-12">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="UserName" class="control-label"></label>
+                    <input asp-for="UserName" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <div id="email-feedback" class="mt-1"></div>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="MobileNo" class="control-label"></label>
+                    <input asp-for="MobileNo" class="form-control" id="MobileNo" />
+                    <div id="phone-feedback" class="mt-1"></div>
+                    <span asp-validation-for="MobileNo" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="PasswordHash" class="control-label">Password</label>
+                    <input asp-for="PasswordHash" class="form-control" type="password" id="password" />
+                    <span asp-validation-for="PasswordHash" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Address" class="control-label"></label>
+                    <textarea asp-for="Address" class="form-control" rows="4" id="Description"></textarea>
+                    <small id="charCount" class="form-text text-muted">0/500 characters</small>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-check mb-3">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-outline-primary" />
+                    <a asp-action="Index" class="btn btn-outline-secondary">Back to List</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@*sweet aleart*@
+@if (errorMessage != null)
+{
+    <script>
+        Swal.fire({
+            icon: "error",
+            title: '<span class="text-danger">Error</span>',
+            text: '@errorMessage'
+        });
+    </script>
+}
+@if (successMessage != null)
+{
+    <script>
+        Swal.fire({
+            icon: "success",
+            title: '<span class="text-success">Success</span>',
+            text: '@successMessage'
+        });
+    </script>
+}

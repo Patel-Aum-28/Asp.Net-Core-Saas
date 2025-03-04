@@ -1,0 +1,89 @@
+﻿@model PharmaManagementApp.Models.UserTable
+
+@{
+    ViewData["Title"] = "Edit";
+    var successMessage = TempData["SuccessMessage"];
+    var errorMessage = TempData["ErrorMessage"];
+}
+
+<main>
+    <form asp-action="Edit" class="p-0">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="mb-0">Edit User Details</h3>
+            </div>
+            <div class="card-body">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input asp-for="UserId" type="hidden" />
+
+                <div class="row mb-3">
+                    <label asp-for="UserName" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="UserName" class="form-control" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label asp-for="Email" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Email" class="form-control" />
+                        <div id="email-feedback" class="mt-1"></div>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label asp-for="MobileNo" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="MobileNo" class="form-control" />
+                        <div id="phone-feedback" class="mt-1"></div>
+                        <span asp-validation-for="MobileNo" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label asp-for="Address" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <textarea asp-for="Address" class="form-control" rows="4" id="Description"></textarea>
+                        <small id="charCount" class="form-text text-muted">0/500 characters</small>
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="form-check-label">
+                        <input class="col-sm-2 form-check-input" asp-for="IsActive" /> Is Active
+                    </label>
+                </div>
+
+                <div class="mt-3">
+                    <input type="submit" value="Save" class="btn btn-outline-primary me-2 mb-2" />
+                    <a asp-action="Index" class="btn btn-outline-dark mb-2">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</main>
+
+@*sweet aleart*@
+@if (errorMessage != null)
+{
+    <script>
+        Swal.fire({
+            icon: "error",
+            title: '<span class="text-danger">Error</span>',
+            text: '@errorMessage'
+        });
+    </script>
+}
+@if (successMessage != null)
+{
+    <script>
+        Swal.fire({
+            icon: "success",
+            title: '<span class="text-success">Success</span>',
+            text: '@successMessage'
+        });
+    </script>
+}
