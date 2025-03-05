@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C#\\Asp Programs\\PharmaManagementApp\\",
+  "WorkspaceRootPath": "D:\\C#\\Project\\pharmagit\\Asp.Net-Core-Saas\\PharmaManagementApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27DD35FF-25D3-4B5F-AE6F-5868A5A13C43}|PharmaManagementApp.csproj|d:\\c#\\asp programs\\pharmamanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{27DD35FF-25D3-4B5F-AE6F-5868A5A13C43}|PharmaManagementApp.csproj|d:\\c#\\project\\pharmagit\\asp.net-core-saas\\pharmamanagementapp\\controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27DD35FF-25D3-4B5F-AE6F-5868A5A13C43}|PharmaManagementApp.csproj|solutionrelative:controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27DD35FF-25D3-4B5F-AE6F-5868A5A13C43}|PharmaManagementApp.csproj|d:\\c#\\project\\pharmagit\\asp.net-core-saas\\pharmamanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27DD35FF-25D3-4B5F-AE6F-5868A5A13C43}|PharmaManagementApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27DD35FF-25D3-4B5F-AE6F-5868A5A13C43}|PharmaManagementApp.csproj|d:\\c#\\asp programs\\pharmamanagementapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{27DD35FF-25D3-4B5F-AE6F-5868A5A13C43}|PharmaManagementApp.csproj|d:\\c#\\project\\pharmagit\\asp.net-core-saas\\pharmamanagementapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27DD35FF-25D3-4B5F-AE6F-5868A5A13C43}|PharmaManagementApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27DD35FF-25D3-4B5F-AE6F-5868A5A13C43}|PharmaManagementApp.csproj|d:\\c#\\asp programs\\pharmamanagementapp\\controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27DD35FF-25D3-4B5F-AE6F-5868A5A13C43}|PharmaManagementApp.csproj|solutionrelative:controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PharmacyController.cs",
-              "DocumentMoniker": "D:\\C#\\Asp Programs\\PharmaManagementApp\\Controllers\\PharmacyController.cs",
+              "DocumentMoniker": "D:\\C#\\Project\\pharmagit\\Asp.Net-Core-Saas\\PharmaManagementApp\\Controllers\\PharmacyController.cs",
               "RelativeDocumentMoniker": "Controllers\\PharmacyController.cs",
-              "ToolTip": "D:\\C#\\Asp Programs\\PharmaManagementApp\\Controllers\\PharmacyController.cs",
+              "ToolTip": "D:\\C#\\Project\\pharmagit\\Asp.Net-Core-Saas\\PharmaManagementApp\\Controllers\\PharmacyController.cs",
               "RelativeToolTip": "Controllers\\PharmacyController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwMIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAqwAABAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T03:20:11.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\C#\\Asp Programs\\PharmaManagementApp\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\C#\\Project\\pharmagit\\Asp.Net-Core-Saas\\PharmaManagementApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\C#\\Asp Programs\\PharmaManagementApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C#\\Project\\pharmagit\\Asp.Net-Core-Saas\\PharmaManagementApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAiwBcAAACuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T03:20:09.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T03:20:09.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#\\Asp Programs\\PharmaManagementApp\\Program.cs",
+              "DocumentMoniker": "D:\\C#\\Project\\pharmagit\\Asp.Net-Core-Saas\\PharmaManagementApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\C#\\Asp Programs\\PharmaManagementApp\\Program.cs",
+              "ToolTip": "D:\\C#\\Project\\pharmagit\\Asp.Net-Core-Saas\\PharmaManagementApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCQAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T06:35:25.617Z",
               "EditorCaption": ""

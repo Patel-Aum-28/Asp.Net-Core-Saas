@@ -7580,11 +7580,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\Asp Programs\\PharmaManagementApp\\PharmaManagementApp.csproj",
+      "projectUniqueName": "D:\\C#\\Project\\pharmagit\\Asp.Net-Core-Saas\\PharmaManagementApp\\PharmaManagementApp.csproj",
       "projectName": "PharmaManagementApp",
-      "projectPath": "D:\\C#\\Asp Programs\\PharmaManagementApp\\PharmaManagementApp.csproj",
+      "projectPath": "D:\\C#\\Project\\pharmagit\\Asp.Net-Core-Saas\\PharmaManagementApp\\PharmaManagementApp.csproj",
       "packagesPath": "C:\\Users\\CODER3\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\Asp Programs\\PharmaManagementApp\\obj\\",
+      "outputPath": "D:\\C#\\Project\\pharmagit\\Asp.Net-Core-Saas\\PharmaManagementApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

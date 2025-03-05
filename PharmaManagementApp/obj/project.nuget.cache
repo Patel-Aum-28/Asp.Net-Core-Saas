@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8U6nKpPzZ5o=",
+  "dgSpecHash": "6LI+0xWh31Y=",
   "success": true,
-  "projectFilePath": "D:\\C#\\Asp Programs\\PharmaManagementApp\\PharmaManagementApp.csproj",
+  "projectFilePath": "D:\\C#\\Project\\pharmagit\\Asp.Net-Core-Saas\\PharmaManagementApp\\PharmaManagementApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CODER3\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\CODER3\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

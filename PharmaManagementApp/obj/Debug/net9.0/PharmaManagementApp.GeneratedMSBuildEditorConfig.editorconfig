@@ -17,53 +17,53 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PharmaManagementApp
 build_property.RootNamespace = PharmaManagementApp
-build_property.ProjectDir = D:\C#\Asp Programs\PharmaManagementApp\
+build_property.ProjectDir = D:\C#\Project\pharmagit\Asp.Net-Core-Saas\PharmaManagementApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\C#\Asp Programs\PharmaManagementApp
+build_property.MSBuildProjectDirectory = D:\C#\Project\pharmagit\Asp.Net-Core-Saas\PharmaManagementApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/C\#/Asp Programs/PharmaManagementApp/Views/Home/Index.cshtml]
+[D:/C\#/Project/pharmagit/Asp.Net-Core-Saas/PharmaManagementApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/Asp Programs/PharmaManagementApp/Views/Pharmacy/Create.cshtml]
+[D:/C\#/Project/pharmagit/Asp.Net-Core-Saas/PharmaManagementApp/Views/Pharmacy/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhcm1hY3lcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/Asp Programs/PharmaManagementApp/Views/Pharmacy/Details.cshtml]
+[D:/C\#/Project/pharmagit/Asp.Net-Core-Saas/PharmaManagementApp/Views/Pharmacy/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhcm1hY3lcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/Asp Programs/PharmaManagementApp/Views/Pharmacy/Edit.cshtml]
+[D:/C\#/Project/pharmagit/Asp.Net-Core-Saas/PharmaManagementApp/Views/Pharmacy/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhcm1hY3lcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/Asp Programs/PharmaManagementApp/Views/Pharmacy/Index.cshtml]
+[D:/C\#/Project/pharmagit/Asp.Net-Core-Saas/PharmaManagementApp/Views/Pharmacy/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhcm1hY3lcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/Asp Programs/PharmaManagementApp/Views/Shared/Error.cshtml]
+[D:/C\#/Project/pharmagit/Asp.Net-Core-Saas/PharmaManagementApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/Asp Programs/PharmaManagementApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/C\#/Project/pharmagit/Asp.Net-Core-Saas/PharmaManagementApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/Asp Programs/PharmaManagementApp/Views/_ViewImports.cshtml]
+[D:/C\#/Project/pharmagit/Asp.Net-Core-Saas/PharmaManagementApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/Asp Programs/PharmaManagementApp/Views/_ViewStart.cshtml]
+[D:/C\#/Project/pharmagit/Asp.Net-Core-Saas/PharmaManagementApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/Asp Programs/PharmaManagementApp/Views/Shared/_Layout.cshtml]
+[D:/C\#/Project/pharmagit/Asp.Net-Core-Saas/PharmaManagementApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qtog0vfs3h
