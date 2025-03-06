@@ -13,9 +13,9 @@ namespace PharmaApi.Repository
             _dbContext = dbContext;
         }
 
-        public async Task<IEnumerable<UserTable>> GetAllAsync()
+        public async Task<IList<UserTable>> GetAllAsync()
         {
-            return await _dbContext.UserTable.ToListAsync();
+            return await _dbContext.UserTable.AsNoTracking().ToListAsync();
         }
 
         public async Task<UserTable> GetByIdAsync(int UserId)

@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "D:\\C#\\Asp Programs\\PharmaApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|d:\\c#\\asp programs\\pharmaapi\\middleware\\dynamicdbcontextmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|solutionrelative:middleware\\dynamicdbcontextmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|d:\\c#\\asp programs\\pharmaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|d:\\c#\\asp programs\\pharmaapi\\controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|solutionrelative:controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +11,28 @@
       "RelativeMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|d:\\c#\\asp programs\\pharmaapi\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|solutionrelative:controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|d:\\c#\\asp programs\\pharmaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|d:\\c#\\asp programs\\pharmaapi\\middleware\\dynamicdbcontextmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|solutionrelative:middleware\\dynamicdbcontextmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|d:\\c#\\asp programs\\pharmaapi\\models\\usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|solutionrelative:models\\usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|d:\\c#\\asp programs\\pharmaapi\\services\\jwttokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|solutionrelative:services\\jwttokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|d:\\c#\\asp programs\\pharmaapi\\data\\dynamicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|solutionrelative:data\\dynamicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|d:\\c#\\asp programs\\pharmaapi\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|solutionrelative:controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|d:\\c#\\asp programs\\pharmaapi\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B569B9C-CBE3-4DB4-95F7-ABA4AFFE702C}|PharmaApi.csproj|solutionrelative:repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,43 +45,73 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\C#\\Asp Programs\\PharmaApi\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
-              "ToolTip": "D:\\C#\\Asp Programs\\PharmaApi\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "Repository\\UserRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvx8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T09:39:16.917Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\C#\\Asp Programs\\PharmaApi\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IUserRepository.cs",
+              "ToolTip": "D:\\C#\\Asp Programs\\PharmaApi\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "Repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:03:23.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserTable.cs",
+              "DocumentMoniker": "D:\\C#\\Asp Programs\\PharmaApi\\Models\\UserTable.cs",
+              "RelativeDocumentMoniker": "Models\\UserTable.cs",
+              "ToolTip": "D:\\C#\\Asp Programs\\PharmaApi\\Models\\UserTable.cs",
+              "RelativeToolTip": "Models\\UserTable.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T12:30:08.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "PharmacyController.cs",
               "DocumentMoniker": "D:\\C#\\Asp Programs\\PharmaApi\\Controllers\\PharmacyController.cs",
               "RelativeDocumentMoniker": "Controllers\\PharmacyController.cs",
               "ToolTip": "D:\\C#\\Asp Programs\\PharmaApi\\Controllers\\PharmacyController.cs",
               "RelativeToolTip": "Controllers\\PharmacyController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAqwEgAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T09:36:29.041Z",
+              "WhenOpened": "2025-03-05T12:02:18.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\C#\\Asp Programs\\PharmaApi\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
+              "ToolTip": "D:\\C#\\Asp Programs\\PharmaApi\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Repository\\UserRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T12:02:18.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MasterController.cs",
               "DocumentMoniker": "D:\\C#\\Asp Programs\\PharmaApi\\Controllers\\MasterController.cs",
               "RelativeDocumentMoniker": "Controllers\\MasterController.cs",
               "ToolTip": "D:\\C#\\Asp Programs\\PharmaApi\\Controllers\\MasterController.cs",
               "RelativeToolTip": "Controllers\\MasterController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAqwEYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA6wCAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T08:58:27.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T12:02:18.747Z"
             },
             {
               "$type": "Document",
@@ -87,49 +121,33 @@
               "RelativeDocumentMoniker": "Services\\JwtTokenHandler.cs",
               "ToolTip": "D:\\C#\\Asp Programs\\PharmaApi\\Services\\JwtTokenHandler.cs",
               "RelativeToolTip": "Services\\JwtTokenHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA2wCgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T09:35:09.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T12:02:18.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DynamicDbContextMiddleware.cs",
               "DocumentMoniker": "D:\\C#\\Asp Programs\\PharmaApi\\Middleware\\DynamicDbContextMiddleware.cs",
               "RelativeDocumentMoniker": "Middleware\\DynamicDbContextMiddleware.cs",
               "ToolTip": "D:\\C#\\Asp Programs\\PharmaApi\\Middleware\\DynamicDbContextMiddleware.cs",
               "RelativeToolTip": "Middleware\\DynamicDbContextMiddleware.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAiwBMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwBMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T09:23:40.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T12:02:18.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#\\Asp Programs\\PharmaApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\C#\\Asp Programs\\PharmaApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAqwEkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwEQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T08:25:15.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DynamicDbContext.cs",
-              "DocumentMoniker": "D:\\C#\\Asp Programs\\PharmaApi\\Data\\DynamicDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\DynamicDbContext.cs",
-              "ToolTip": "D:\\C#\\Asp Programs\\PharmaApi\\Data\\DynamicDbContext.cs",
-              "RelativeToolTip": "Data\\DynamicDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T09:08:06.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T12:02:18.763Z"
             }
           ]
         }

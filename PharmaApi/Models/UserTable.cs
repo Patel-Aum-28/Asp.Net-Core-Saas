@@ -13,7 +13,6 @@ namespace PharmaApi.Models
         [Required(ErrorMessage = "Email is Required.")]
         [StringLength(50)]
         public string Email { get; set; }
-        [Required]
         public string PasswordHash { get; set; }
         [Required(ErrorMessage = "Mobile Number is Required.")]
         [Display(Name = "Mobile Number")]

@@ -8,6 +8,7 @@ using PharmaApi.Services;
 using System.ComponentModel.DataAnnotations;
 using System.IdentityModel.Tokens.Jwt;
 using System.Xml.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace PharmaApi.Controllers
 {
@@ -68,7 +69,9 @@ namespace PharmaApi.Controllers
                     model.PasswordHash = _passwordService.GetHashPassword(model.PasswordHash);
                     model.CreatedAt = DateTime.Now;
                     model.UpdatedAt = DateTime.Now;
-                    var result = await _userRepository.AddAsync(model);
+                    var resultTemp = await _userRepository.AddAsync(model);
+
+                    var result = _mapper.Map<UserViewModel>(resultTemp);
 
                     return Ok(new { success = true, result = result, Message = "User Added Successfully." });
                 }
@@ -118,11 +121,11 @@ namespace PharmaApi.Controllers
                     {
                         if(user.UserId != model.UserId)
                         {
-                            if(user.Email == model.Email)
+                            if(user.Email == model.Email.Trim().ToLower())
                             {
                                 return BadRequest(new { success = false, err = "Email already exist use different one." });
                             }
-                            if (user.MobileNo == model.MobileNo)
+                            if (user.MobileNo == model.MobileNo.Trim())
                             {
                                 return BadRequest(new { success = false, err = "Mobile number already exist use different one." });
                             }
@@ -140,7 +143,9 @@ namespace PharmaApi.Controllers
 
                     model.PasswordHash = currentPasswordHash;
                     model.CreatedAt = currentCreatedAt;
-                    var result = _userRepository.Update(model);
+                    var resultTemp = _userRepository.Update(model);
+
+                    var result = _mapper.Map<UserViewModel>(resultTemp);
 
                     return Ok(new { success = true, result = result, Message = "User Updated Successfully." });
                 }
